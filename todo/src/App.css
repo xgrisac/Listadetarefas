@@ -37,6 +37,7 @@ button { /* Config geral dos buttons */
   background-color: #333974;
   color: #FFF;
   padding: 5px 10px;
+  margin-right: 5px;
   border: none; /* Remove borda */
   border-radius: 3px; /* Borde aredondada */
   cursor: pointer; /* Muda o ponteiro pra maozinha */
@@ -46,6 +47,23 @@ button { /* Config geral dos buttons */
 
 button:hover {
   opacity: 1; /* Muda opacidade de 0,8 para 1 ao passar o cursos */
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555; /*Linha de separação do form para a div principal*/
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex; /*Possibilita centralizar a div*/
+  justify-content: space-between; /*Centraliza na horizontal*/
+  align-items: center; /*Centraliza na vertifical*/
 }
 
 .complete {
@@ -58,6 +76,7 @@ button:hover {
 
 .todo-form {
   padding-bottom: 1.5rem; /* Espaçamento interno dos buttons do todoform*/
+  text-align: center; /*Alinhamento do texto class form */
 }
 
 input, select { /* Configuração do imput e select dentro do meu todoform */
