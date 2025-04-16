@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=DM+Serif+Display:ital@0;1&family=Passion+One:wght@400;700;900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 body {
   font-family: Arial;
   background-color: #f4f4f4;
@@ -5,36 +8,44 @@ body {
   color: #333;
   background-image: url('./img/pexels-pixabay-159045.jpg');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%; /*  Atenção com posicionamento da imagem*/
+  background-size: cover;
 }
 
 .app {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  background-color: #efefef;
+  background-color: #ebf1f5;
   padding: 20px 30px;
   border-radius: 10px;
 }
 
 h1 {
   text-align: center;
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
   margin-bottom: 10px;
+  font-family: "Calistoga", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 p {
   margin: 10px 0;
+  font-family: "Delius", cursive;
+  font-weight: 550;
+  font-style: normal;
 }
 
 input {
   box-sizing: border-box;
 }
-
+/* 1bb0eb */
 button { /* Config geral dos buttons */
-  background-color: #333974;
+  background-color: #3f7797;
   color: #FFF;
   padding: 5px 10px;
   margin-right: 5px;
@@ -76,7 +87,6 @@ button:hover {
 
 .todo-form {
   padding-bottom: 1.5rem; /* Espaçamento interno dos buttons do todoform*/
-  text-align: center; /*Alinhamento do texto class form */
 }
 
 input, select { /* Configuração do imput e select dentro do meu todoform */
@@ -86,3 +96,20 @@ input, select { /* Configuração do imput e select dentro do meu todoform */
   border-radius: 3px;
   width: 100%; /* Faz com que um item fique embaixo do outro */
 }
+
+.search, .filter{
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;  
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
+
