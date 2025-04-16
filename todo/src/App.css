@@ -4,7 +4,6 @@
 body {
   font-family: Arial;
   background-color: #f4f4f4;
-  padding: 30px;
   color: #333;
   background-image: url('./img/pexels-pixabay-159045.jpg');
   background-position: center;
@@ -38,6 +37,13 @@ p {
   font-family: "Delius", cursive;
   font-weight: 550;
   font-style: normal;
+}
+
+#footer {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
 
 input {

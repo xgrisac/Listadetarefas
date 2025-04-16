@@ -99,6 +99,9 @@ function App() {
       ))}
     </div>
     <TodoForm addTodo={addTodo} /> 
+    <div className='footer'>
+    <p id='footer'>© Isac Ribeiro</p>
+    </div>
   </div>
   );
 }
