@@ -37,11 +37,17 @@ To Do List é um projeto simples e prático desenvolvido com o objetivo de auxil
 Instale as dependências, navegue até o diretório do projeto e execute:
 
 bash
+
 git clone https://github.com/seu-usuario/todo-list.git
+
 cd to do list
+
 npm install
+
 Execute o projeto:
+
 npm run dev
+
 O projeto estará disponível em http://localhost:5173
 
 # Contribuindo
@@ -50,12 +56,15 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para enviar um
 Faça um fork do repositório.
 
 Crie uma branch para a sua modificação:
+
 git checkout -b minha-modificacao
 
 Comite suas mudanças:
+
 git commit -am 'Adicionando minha modificação'
 
 Envie para o seu repositório:
+
 git push origin minha-modificacao
 
 Abra um pull request no repositório original.
